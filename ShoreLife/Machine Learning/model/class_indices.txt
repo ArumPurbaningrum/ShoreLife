@@ -1,0 +1,12 @@
+class indices: {
+'Catfish': 0, 
+'Goby': 1, 
+'Gourami': 2, 
+'Mackerel': 3, 
+'Pangasius': 4, 
+'Sardine': 5, 
+'Shrimp': 6, 
+'Silver Barb': 7, 
+'Tilapia': 8, 
+'Tuna': 9
+}
