@@ -1,5 +1,36 @@
-GET http://localhost:3000/Fish/fetch/SA202304
+GET http://localhost:3000/Fish/fishdesc/SA202302
+Content-Type: application/json
 
-//
+[
+    {
+        "_id": "657fdec94a1e984c107e7355",
+        "fish_name": "Gourami",
+        "indo_name": "Ikan Gurame",
+        "fish_id": "SA202302",
+        "phylum": "Chordata",
+        "order": "Labyrinthici",
+        "family": "Osphronemidae",
+        "scientific_name": "Osphronemus gouramy",
+        "desc": "Ikan Gurame (Osphronemus gouramy Lac.) merupakan salah satu jenis ikan air tawar yang cukup digemari oleh masyarakat asia tenggara dan asia selatan, tak terkecuali masyarakat Indonesia. Menurut klasifikasi, ikan gurami sendiri masuk kedalam family Osphronemidae yang masih keluarga dekat dengan ikan sepat serta ikan cupang.\\r\\n\\r\\nIkan gurami memiliki bentuk badan agak memanjang, pipih, serta lebar. Dimana pada bagian badan ikan gurame tertutup oleh sisik yang kuat dengan tekstur tepian yang kasar. Ikan ini memiliki ukuran mulut yang relatif kecil yang terletak di bawah ujung moncong, dan pada bagian bibir bawah terlihat sedikit menonjol dibandingkan dengan bibir bagian atas.\\r\\n\\r\\numumnya ikan gurame memiliki warna tubuh biru kehitam-hitaman, bagian perutnya berwarna putih, serta pada punggungnya berwarna kecokelatan. Warna-warna tersebut akan terus mengalami perubahan sesuai dengan usia dari ikan. Pada ikan muda terdapat juga garis tegak berwarna hitam berjumlah sekitar 7-8 garis dan akan menjadi samar bahkan tidak terlihat jika ikan telah menjadi dewasa.",
+        "image": "https://storage.googleapis.com/fish-shorelife/data/fish_image/gourami/Ikan-Gurame-Soang.jpg",
+        "image_1": "https://storage.googleapis.com/fish-shorelife/data/fish_image/gourami/gurame.jpg",
+        "reference_1": "https://ikanpedia.my.id/klasifikasi-dan-morfologi-ikan-gurame/"
+    }
+]
 
-GET http://localhost:3000/Fish/content/SA202304
+##### 
+GET http://localhost:3000/Fish/content/SA202302
+Content-Type: application/json
+
+[
+    {
+        "_id": "657fdde64a1e984c107e734d",
+        "content_name": "Gurame Ikan Pemalas",
+        "content_id": "CI202304",
+        "fish_name": "Ikan Gurame",
+        "fish_id": "SA202302",
+        "content": "Gurame memiliki alat pernapasan tambahan berupa labirin yang membuatnya dapat bertahan di kondisi perairan yang minim. Fakta menarik lagi ternyata gurame dikenal sebagai ikan yang malas, tetapi ikan ini bisa bergerak dengan cepat jika ada benda yang dianggap sebagai mangsanya, serta gurame merupakan hewan herbivora atau pemakan tumbuhan. Namun, sejak larva, gurame lebih menyukai pakan alami seperti cacing sutra, rotifer, dan infusaria. Ikan gurame dewasa biasanya memakan tumbuh-tumbuhan air. Ikan gurame mengandung asam lemak omega-3 walaupun jumlahnya tidak banyak. Manfaat ikan gurame selanjutnya adalah mampu menjaga kesehatan tulang dan gigi. Hal ini terjadi tingginya kandungan kalsium di dalam ikan gurame.",
+        "references": "https://www.kompas.com/sains/read/2022/05/21/210000123/mengenal-ikan-gurame-habitat-hingga-kebiasaan-makannya",
+        "references_2": "5 Manfaat Ikan Gurame dan Kandungan Nutrisinya - Alodokter"
+    }
+]
